@@ -10,7 +10,7 @@ PRS = [
 
 a = ['Paper','Rock','Sciccor']
 
-c = inquirer.prompt(PRS).
+c = inquirer.prompt(PRS)
 #print (c)
 
 if c == random.choice(a):
